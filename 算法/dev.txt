@@ -1,1 +1,23 @@
 dev
+
+上传
+
+git init
+git add .
+git commit -m 'first commit'
+git remote add origin https://github.com/2470370075/xxxxxxxxxx.git
+git push origin 
+
+上传分支
+
+git push origin dev 
+
+下载
+
+git clone https://github.com/2470370075/xxxxxxxxxx.git
+
+下载分支 
+
+git branch dev 建立分支
+git checkout dev 进入分支
+git pull origin dev 
